@@ -22,7 +22,7 @@ boot2docker) are *not* supported.
 
 
 Note
-~~~~~~~~~~~
+----------
 
 1. You should run all ``make`` commands described below on your local machinge, *not*
 from within a Virtual Machine, as these commands are meant to stand up a VM-like environment using
@@ -31,14 +31,14 @@ Docker containers.
 Or if you always require sudo to execute docker commands 
 
 Directions to setup
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
 Clone this project or downloadthe zip file. You may also run online with ``Gitpod`` - 
 Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki
 
 
 Start the project. 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
    .. code:: sh
 
@@ -47,14 +47,14 @@ Start the project.
 This will also install all the required packages for this project.
 
 Solution - 1: 
-~~~~~~~~~~~~~~~~
+------------------------------
 
    .. code:: sh
 
        make fetch.api
 
 Solution - 2: 
-~~~~~~~~~~~~~~~~
+------------------
 
    .. code:: sh
 
@@ -68,13 +68,13 @@ Solution - 2:
          filename provided is generated in solution__2 folder
 
 Test solution 2:
-~~~~~~~~~~~~~~~~~
+------------------------------
    .. code:: sh
 
        make test.generated.data
 
 Solution - 3:
-~~~~~~~~~~~~~~~
+------------------------------
 
    .. code:: sh
 
@@ -83,21 +83,20 @@ Solution - 3:
 (note: output file is generated in solution__3 folder "output.csv" )
 
 Show logs:
-~~~~~~~~~~~~~
-
+----------------
    .. code:: sh
 
        make show-logs
 
 Manually install requirements:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
    .. code:: sh
 
        make requirements
 
 Stop all running containers:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
    .. code:: sh
 
@@ -106,10 +105,10 @@ Stop all running containers:
 
 Alternatively,you can still run this project on your PC (e.g. Windows) if you don't have
 WSL installed or make and/or Docker - You must have Python3.4+ already installed
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------------------------------------
 
 Create a virtual environment:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
    .. code:: sh
 
@@ -118,7 +117,7 @@ Create a virtual environment:
 note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
 
 Activate it:
-~~~~~~~~~~~~~~~~
+------------------------------
 
    .. code:: sh
 
@@ -127,7 +126,7 @@ Activate it:
        source venv/Scripts/activate (Windows - you must have Git installed to use source on Windows)
 
 Download the requirements file:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
    .. code:: sh
 
@@ -138,14 +137,14 @@ Download the requirements file:
     python - Windows default
 
 Run Solution - 1:
-~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
    .. code:: sh
 
        cd solution__1 && python fetch_data.py
 
 Run Solution - 2:
-~~~~~~~~~~~~~~~~~~~~
+------------------------------
 
     note: Return to the root directory before you run solution 2 & 3
 
