@@ -38,8 +38,8 @@ Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-
 
 
 **Start the project.**
-~~~~~~~~~~~~~
 ------------------------------
+~~~~~~~~~~~~~
 
    .. code:: sh
 
