@@ -159,7 +159,7 @@ Run Solution - 2:
 (note: -n = number of rows, -f = filename)
 
 Run Solution - 3:
-~~~~~~~~~~~~~~~~~~~
+------------------------------
 
    .. code:: sh
 
