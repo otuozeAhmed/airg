@@ -22,7 +22,7 @@ boot2docker) are *not* supported.
 
 
 Note
-----------
+~~~~~~~~~~~~~
 
 1. You should run all ``make`` commands described below on your local machinge, *not*
 from within a Virtual Machine, as these commands are meant to stand up a VM-like environment using
