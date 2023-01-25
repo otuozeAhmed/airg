@@ -38,6 +38,7 @@ Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-
 
 
 **Start the project.**
+~~~~~~~~~~~~~
 ------------------------------
 
    .. code:: sh
@@ -47,6 +48,7 @@ Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-
 This will also install all the required packages for this project.
 
 **Solution - 1:**
+~~~~~~~~~~~~~
 ------------------------------
 
    .. code:: sh
