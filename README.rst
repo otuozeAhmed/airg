@@ -178,7 +178,7 @@ Note before you run the solution file:
 ***
 
 **Run Solution - 3.**
-~~~~~~~~~~~~~~~~~~~
+-------------------
 
    .. code:: sh
 
