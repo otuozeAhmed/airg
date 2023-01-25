@@ -1,0 +1,31 @@
+version: "3.9"
+
+services:
+
+  fetch_api:  
+    container_name: fetch_api 
+    build:
+      context: .
+      dockerfile: ./solution__1/Dockerfile
+    volumes:    
+      - .:/app  
+
+  random_data_gen:  
+    container_name: random_data_gen 
+    build:
+      context: .
+      dockerfile: ./solution__2/Dockerfile
+    volumes:    
+      - .:/app  
+
+  format_csv:  
+    container_name: format_csv 
+    build:
+      context: .
+      dockerfile: ./solution__3/Dockerfile
+    volumes:    
+      - .:/app  
+
+
+volumes:
+  app:
