@@ -177,8 +177,8 @@ Note before you run the solution file:
        cd solution__2 && python tests.py
 ***
 
-*Run Solution - 3.*
--------------------
+**Run Solution - 3.**
+~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
