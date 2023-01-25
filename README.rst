@@ -54,7 +54,7 @@ This will also install all the required packages for this project.
        make fetch.api
 
 **Solution - 2:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -68,13 +68,13 @@ This will also install all the required packages for this project.
          filename provided is generated in solution__2 folder
 
 **Test solution 2:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
    .. code:: sh
 
        make test.generated.data
 
 **Solution - 3:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -83,20 +83,20 @@ This will also install all the required packages for this project.
 (note: output file is generated in solution__3 folder "output.csv" )
 
 **Show logs:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
    .. code:: sh
 
        make show-logs
 
 **Manually install requirements:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
        make requirements
 
 **Stop all running containers:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -104,12 +104,10 @@ This will also install all the required packages for this project.
 
 
 **Alternatively,you can still run this project on your PC (e.g. Windows) if you don't have**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 **WSL installed or make and/or Docker - You must have Python3.4+ already installed**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Create a virtual environment:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -118,7 +116,7 @@ This will also install all the required packages for this project.
 note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
 
 **Activate it:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -127,7 +125,7 @@ note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
        source venv/Scripts/activate (Windows - you must have Git installed to use source on Windows)
 
 **Download the requirements file:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -138,14 +136,14 @@ note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
     python - Windows default
 
 **Run Solution - 1:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
        cd solution__1 && python fetch_data.py
 
 **Run Solution - 2:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
     note: Return to the root directory before you run solution 2 & 3
 
@@ -159,7 +157,7 @@ note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
 (note: -n = number of rows, -f = filename)
 
 **Run Solution - 3:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -167,7 +165,7 @@ note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
 
 
 **Run the tests for solution - 2:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
