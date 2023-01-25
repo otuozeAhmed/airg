@@ -56,7 +56,7 @@ This will also install all the required packages for this project.
 ***  
 
 **Solution - 2:**
-------------------------
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -64,11 +64,12 @@ This will also install all the required packages for this project.
        make generate.random.data n=100 f=sample.csv (with parameters)
        make generate.random.data n=100 f=sample (without extension: will append .csv automatically)
        make generate.random.data n=high f=0-=23.csv (with incorrect parameters: will use default values)
-       
+
    Note: Running this solution without parameters will use default values.
          (n=number of rows, f=filename). Pass without spaces...
-         filename provided is generated in solution__2 folder
-
+         filename provided is generated in solution__2 folder 
+***
+ 
 **Test solution 2:**
 ------------------------
    .. code:: sh
