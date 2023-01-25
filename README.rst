@@ -164,13 +164,12 @@ Run Solution - 2:
 
        cd solution__3 && python format_csv.py
 
-.. size:: 8pt
 
-        Run the tests for solution - 2:
+**Run the tests for solution - 2:**
+-------------------------------------
 
    .. code:: sh
 
        cd solution__2 && python tests.py
-
 
 
