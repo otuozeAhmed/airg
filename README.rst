@@ -78,76 +78,85 @@ This will also install all the required packages for this project.
 *** 
 
 **Solution - 3:**
-------------------------
+~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        make format.csv
-       
+***     
+
 (note: output file is generated in solution__3 folder "output.csv" )
 
 **Show logs:**
-------------------------
+~~~~~~~~~~~~~~~~~~~~
    .. code:: sh
 
        make show-logs
+***
 
 **Manually install requirements:**
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        make requirements
+***
 
 **Stop all running containers:**
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        make stop
 
+***
 
 **Alternatively,you can still run this project on your PC (e.g. Windows) if you don't have**
 **WSL installed or make and/or Docker - You must have Python3.4+ already installed**
 
 **Create a virtual environment:**
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        pip -m venv venv
-       
+***
+
 note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
 
 **Activate it:**
-------------------------
+~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        source venv/bin/activate (Linux & Mac)
     
        source venv/Scripts/activate (Windows - you must have Git installed to use source on Windows)
+***
 
 **Download the requirements file:**
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        pip install -r requirements.txt
+***
 
- Note before you run the solution file: 
+Note before you run the solution file: 
     use python3 - Linux & Mac if you don't already have an alias for python
     python - Windows default
+***
 
 **Run Solution - 1:**
-------------------------
+~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        cd solution__1 && python fetch_data.py
+***
 
 **Run Solution - 2:**
-------------------------
+~~~~~~~~~~~~~~~~~~~~~
 
     note: Return to the root directory before you run solution 2 & 3
 
@@ -157,22 +166,24 @@ note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
        python random_data_gen.py (without parametera)
        python random_data_gen.py -n 50 -f data (without extension: will append .csv automatically)
        python random_data_gen.py -n code -f =--12- (with incorrect parameters: will use default values)
-
+***
 (note: -n = number of rows, -f = filename)
 
 **Run Solution - 3:**
-------------------------
+~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        cd solution__3 && python format_csv.py
 
+***
 
 **Run the tests for solution - 2:**
-------------------------
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        cd solution__2 && python tests.py
+***
 
 
