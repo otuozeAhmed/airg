@@ -1,4 +1,4 @@
-:color:`blue` Getting Started
+Getting Started
 ---------------
 
 Prerequisites
@@ -164,7 +164,7 @@ Run Solution - 3:
 
        cd solution__3 && python format_csv.py
 
-Run the tests for solution - 2:
+**Run the tests for solution - 2:**
 ------------------------------
 
    .. code:: sh
