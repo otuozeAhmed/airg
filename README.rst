@@ -164,8 +164,9 @@ Run Solution - 2:
 
        cd solution__3 && python format_csv.py
 
+
 **Run the tests for solution - 2:**
-------------------------------
+-------------------------------------
 
    .. code:: sh
 
