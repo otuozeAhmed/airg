@@ -148,9 +148,10 @@ WSL installed or make and/or Docker - You must have Python3.4+ already installed
        cd solution__2 && python random_data_gen.py -n 50 -f data (without extension: will append .csv automatically)
        cd solution__2 && python random_data_gen.py -n code -f =--12- (with incorrect parameters: will use default values)
        (note: -n = number of rows, -f = filename)
-
+       
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  Run Solution - 3 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -158,6 +159,7 @@ WSL installed or make and/or Docker - You must have Python3.4+ already installed
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  Run the tests for solution - 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
