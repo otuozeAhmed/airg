@@ -11,7 +11,7 @@ You will need to have the following installed:
 
 This project requires **Docker 17.06+ CE**. 
 The current Docker version used for this project is **Docker 20.10.22 CE** 
-I recommend Docker Stable, butDocker Edge should work as well.
+I recommend Docker Stable, but Docker Edge should work as well.
 
 **NOTE:** Switching between Docker Stable and Docker Edge will remove all images and
 settings.  Don't forget to restore your memory setting and be prepared to
@@ -33,7 +33,7 @@ Or if you always require sudo to execute docker commands
 Directions to setup
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Clone this project or downloadthe zip file. You may also run online with Gitpod - 
+Clone this project or downloadthe zip file. You may also run online with ``Gitpod`` - 
 Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki
 
 
