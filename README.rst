@@ -143,7 +143,7 @@ note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
 ***
 
 Note before you run the solution file: 
-    use python3 - Linux & Mac if you don't already have an alias for python
+    use python3 - Linux & Mac if you don't already have an alias for
     python - Windows default
 ***
 
@@ -177,8 +177,8 @@ Note before you run the solution file:
        cd solution__2 && python tests.py
 ***
 
-**Run Solution - 3.**
-~~~~~~~~~~~~~
+*Run Solution - 3.*
+-------------------
 
    .. code:: sh
 
