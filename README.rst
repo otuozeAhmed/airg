@@ -10,7 +10,7 @@ You will need to have the following installed:
 - Docker - https://www.docker.com/products/docker-desktop/
 
 This project requires **Docker 17.06+ CE**. 
-The current Docker version used for this project is **Docker 20.10.22 CE** 
+The current Docker version used for this project is **Docker 20.10.22 CE**. 
 I recommend Docker Stable, but Docker Edge should work as well.
 
 **NOTE:** Switching between Docker Stable and Docker Edge will remove all images and
@@ -33,7 +33,7 @@ Or if you always require sudo to execute docker commands
 Directions to setup
 ~~~~~~~~~~~~~
 
-Clone this project or downloadthe zip file. You may also run online with ``Gitpod`` - 
+Clone this project or download the zip file. You may also run online with ``Gitpod`` - 
 Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki
 
 
@@ -43,7 +43,7 @@ Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-
    .. code:: sh
 
         make start
-
+***
 This will also install all the required packages for this project.
 
 **Solution - 1.**
@@ -53,7 +53,7 @@ This will also install all the required packages for this project.
 
        make fetch.api
 
-***  
+***
 
 **Solution - 2.**
 ~~~~~~~~~~~~~
@@ -75,7 +75,7 @@ This will also install all the required packages for this project.
    .. code:: sh
 
        make test.generated.data
-*** 
+***
 
 **Solution - 3.**
 ~~~~~~~~~~~~~
@@ -83,7 +83,7 @@ This will also install all the required packages for this project.
    .. code:: sh
 
        make format.csv
-***     
+***
 
 (note: output file is generated in solution__3 folder "output.csv" )
 
@@ -169,15 +169,6 @@ Note before you run the solution file:
 ***
 (note: -n = number of rows, -f = filename)
 
-**Run Solution - 3.**
-~~~~~~~~~~~~~
-
-   .. code:: sh
-
-       cd solution__3 && python format_csv.py
-
-***
-
 **Run the tests for solution - 2.**
 ~~~~~~~~~~~~~
 
@@ -186,4 +177,12 @@ Note before you run the solution file:
        cd solution__2 && python tests.py
 ***
 
+**Run Solution - 3.**
+~~~~~~~~~~~~~
+
+   .. code:: sh
+
+       cd solution__3 && python format_csv.py
+
+***
 
