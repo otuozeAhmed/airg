@@ -122,11 +122,10 @@ Activate it:
 
    .. code:: sh
 
-       source venv/bin/activate 
- - Linux & Mac
-       source venv/Scripts/activate 
- - Windows (you must have Git installed to use source on Windows)
-       
+       source venv/bin/activate (Linux & Mac)
+    
+       source venv/Scripts/activate (Windows - you must have Git installed to use source on Windows)
+
 Download the requirements file:
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
