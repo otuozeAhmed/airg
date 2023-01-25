@@ -30,14 +30,15 @@ Docker containers.
 2. Ensure to append ``sudo`` to all commands if your Docker permission configs is not properly set
 Or if you always require sudo to execute docker commands 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Directions to setup
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Clone this project or downloadthe zip file. You may also run online with Gitpod - 
 Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
  Start the project. 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -45,15 +46,15 @@ Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-
 
     This will also install all the required packages for this project.
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  Solution - 1: Use this command to see results of question 1
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        make fetch.api
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  Solution - 2: Use these commands to see results of question 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -66,8 +67,8 @@ Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-
          (n=number of rows, f=filename). Pass without spaces...
          filename provided is generated in solution__2 folder
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  Solution - 3: Use this command to see results of question 3
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -75,33 +76,34 @@ Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-
        
     (note: output file is generated in solution__3 folder "output.csv" )
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  Use this command to show logs
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        make show-logs
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  Use this command to manually install requirements
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        make requirements
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  Use this command to top all running containers
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        make stop
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
  Alternatively,you can still run this project on your PC (e.g. Windows) if you don't have
 WSL installed or make and/or Docker - You must have Python3.4+ already installed
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  Create a virtual environment
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -109,16 +111,16 @@ WSL installed or make and/or Docker - You must have Python3.4+ already installed
        
     note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
 
-~~~~~~~~~~~~~~~~~~~~~~~~~
  Activate it
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        source venv/bin/activate - Linux & Mac
        source venv/Scripts/activate - Windows (you must have Git installed to use source on Windows)
        
+##### Download the requirements file
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- Download the requirements file
 
    .. code:: sh
 
@@ -129,15 +131,15 @@ WSL installed or make and/or Docker - You must have Python3.4+ already installed
     use python3 - Linux & Mac if you don't already have na alias using python
     python - Windows default
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  Run Solution - 1 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        cd solution__1 && python fetch_data.py
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  Run Solution - 2 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     note: Return to the root directory before you run solution 2 & 3
 
@@ -148,8 +150,7 @@ WSL installed or make and/or Docker - You must have Python3.4+ already installed
        cd solution__2 && python random_data_gen.py -n 50 -f data (without extension: will append .csv automatically)
        cd solution__2 && python random_data_gen.py -n code -f =--12- (with incorrect parameters: will use default values)
        (note: -n = number of rows, -f = filename)
-       
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
  Run Solution - 3 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -157,8 +158,7 @@ WSL installed or make and/or Docker - You must have Python3.4+ already installed
 
        cd solution__3 && python format_csv.py
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
- Run the tests for solution - 2
+### Run the tests for solution - 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
