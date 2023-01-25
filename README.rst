@@ -149,7 +149,7 @@ Run Solution - 2
        cd solution__2 && python random_data_gen.py (without parametera)
        cd solution__2 && python random_data_gen.py -n 50 -f data (without extension: will append .csv automatically)
        cd solution__2 && python random_data_gen.py -n code -f =--12- (with incorrect parameters: will use default values)
-       
+
 (note: -n = number of rows, -f = filename)
 
 Run Solution - 3 
@@ -159,7 +159,7 @@ Run Solution - 3
 
        cd solution__3 && python format_csv.py
 
-Run the tests for solution - 2
+## Run the tests for solution - 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
