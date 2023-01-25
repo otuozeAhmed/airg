@@ -1,4 +1,4 @@
-Getting Started
+.. size:: 14pt :color:`blue` Getting Started
 ---------------
 
 Prerequisites
