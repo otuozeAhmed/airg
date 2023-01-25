@@ -21,7 +21,7 @@ For macOS users, please use `Docker for Mac`_. Previous Mac-based tools (e.g.
 boot2docker) are *not* supported. 
 
 
-Please note
+Note
 ~~~~~~~~~~~
 
 1. You should run all ``make`` commands described below on your local machinge, *not*
@@ -42,9 +42,9 @@ Start the project.
 
    .. code:: sh
 
-       make start
+        make start
 
-    This will also install all the required packages for this project.
+This will also install all the required packages for this project.
 
 Solution - 1: Use this command to see results of question 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -166,7 +166,7 @@ Run Solution - 3
 
        cd solution__3 && python format_csv.py
 
-#. Run the tests for solution - 2
+Run the tests for solution - 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
