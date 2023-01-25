@@ -71,14 +71,14 @@ This will also install all the required packages for this project.
 ***
  
 **Test solution 2:**
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
    .. code:: sh
 
        make test.generated.data
 *** 
 
 **Solution - 3:**
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -88,14 +88,14 @@ This will also install all the required packages for this project.
 (note: output file is generated in solution__3 folder "output.csv" )
 
 **Show logs:**
-~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
    .. code:: sh
 
        make show-logs
 ***
 
 **Manually install requirements:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -103,7 +103,7 @@ This will also install all the required packages for this project.
 ***
 
 **Stop all running containers:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -115,7 +115,7 @@ This will also install all the required packages for this project.
 **WSL installed or make and/or Docker - You must have Python3.4+ already installed**
 
 **Create a virtual environment:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -125,7 +125,7 @@ This will also install all the required packages for this project.
 note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
 
 **Activate it:**
-~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -135,7 +135,7 @@ note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
 ***
 
 **Download the requirements file:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -148,7 +148,7 @@ Note before you run the solution file:
 ***
 
 **Run Solution - 1:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -156,7 +156,7 @@ Note before you run the solution file:
 ***
 
 **Run Solution - 2:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
     note: Return to the root directory before you run solution 2 & 3
 
@@ -170,7 +170,7 @@ Note before you run the solution file:
 (note: -n = number of rows, -f = filename)
 
 **Run Solution - 3:**
-~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
@@ -179,7 +179,7 @@ Note before you run the solution file:
 ***
 
 **Run the tests for solution - 2:**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~
 
    .. code:: sh
 
