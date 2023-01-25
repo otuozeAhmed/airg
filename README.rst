@@ -37,23 +37,23 @@ Clone this project or downloadthe zip file. You may also run online with Gitpod 
 Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki
 
 
-##### Start the project. 
+ Start the project. 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        make start
 
-   This will also install all the required packages for this project.
+    This will also install all the required packages for this project.
 
-##### Solution - 1: Use this command to see results of question 1
+ Solution - 1: Use this command to see results of question 1
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        make fetch.api
 
-##### Solution - 2: Use these commands to see results of question 2
+ Solution - 2: Use these commands to see results of question 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
@@ -67,29 +67,30 @@ Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-
          (n=number of rows, f=filename). Pass without spaces...
          filename provided is generated in solution__2 folder
 
-##### Solution - 3: Use this command to see results of question 3
+ Solution - 3: Use this command to see results of question 3
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        make format.csv
-       (note: output file is generated in solution__3 folder "output.csv" )
+       
+    (note: output file is generated in solution__3 folder "output.csv" )
 
-##### Use this command to show logs
+ Use this command to show logs
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        make show-logs
 
-##### Use this command to manually install requirements
+ Use this command to manually install requirements
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        make requirements
 
-##### Use this command to top all running containers
+ Use this command to top all running containers
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
@@ -97,19 +98,20 @@ Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-
        make stop
 
 
-### Alternatively,you can still run this project on your PC (e.g. Windows) if you don't have
+ Alternatively,you can still run this project on your PC (e.g. Windows) if you don't have
 WSL installed or make and/or Docker - You must have Python3.4+ already installed
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-##### Create a virtual environment
+ Create a virtual environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        pip -m venv venv
-       note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
+       
+    note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
 
-##### Activate it
+ Activate it
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
@@ -125,18 +127,18 @@ WSL installed or make and/or Docker - You must have Python3.4+ already installed
        pip install -r requirements.txt
        source venv/Scripts/activate - Windows (you must have Git installed to use source on Windows)
 
-###### note before you run the solution file: 
+ Note before you run the solution file: 
     use python3 - Linux & Mac if you don't already have na alias using python
     python - Windows default
 
-##### Run Solution - 1 
+ Run Solution - 1 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        cd solution__1 && python fetch_data.py
 
-##### Run Solution - 2 
+ Run Solution - 2 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
     note: Return to the root directory before you run solution 2 & 3
@@ -149,14 +151,14 @@ WSL installed or make and/or Docker - You must have Python3.4+ already installed
        cd solution__2 && python random_data_gen.py -n code -f =--12- (with incorrect parameters: will use default values)
        (note: -n = number of rows, -f = filename)
 
-##### Run Solution - 3 
+ Run Solution - 3 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
 
        cd solution__3 && python format_csv.py
 
-##### Run the tests for solution - 2
+ Run the tests for solution - 2
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    .. code:: sh
