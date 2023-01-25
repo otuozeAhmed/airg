@@ -67,6 +67,13 @@ Solution - 2: Use these commands to see results of question 2
          (n=number of rows, f=filename). Pass without spaces...
          filename provided is generated in solution__2 folder
 
+Test solution 2 - Use the command below to run unittests for solution 2
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+   .. code:: sh
+
+       make test.generated.data
+
 Solution - 3: Use this command to see results of question 3
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
