@@ -39,7 +39,6 @@ Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-
 
 **Start the project.**
 ~~~~~~~~~~~~~
-------------------------------
 
    .. code:: sh
 
@@ -49,14 +48,13 @@ This will also install all the required packages for this project.
 
 **Solution - 1.**
 ~~~~~~~~~~~~~
-------------------------------
 
    .. code:: sh
 
        make fetch.api
 
 **Solution - 2:**
-------------------
+~~~~~~~~~~~~~
 
    .. code:: sh
 
