@@ -31,7 +31,7 @@ Docker containers.
 Or if you always require sudo to execute docker commands 
 
 Directions to setup
-------------------------------
+~~~~~~~~~~~~~
 
 Clone this project or downloadthe zip file. You may also run online with ``Gitpod`` - 
 Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki
