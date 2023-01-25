@@ -71,10 +71,11 @@ This will also install all the required packages for this project.
 ***
  
 **Test solution 2:**
-------------------------
+~~~~~~~~~~~~~~~~~~~~
    .. code:: sh
 
        make test.generated.data
+*** 
 
 **Solution - 3:**
 ------------------------
