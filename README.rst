@@ -37,7 +37,7 @@ Clone this project or downloadthe zip file. You may also run online with ``Gitpo
 Get Gitpod here - https://chrome.google.com/webstore/detail/gitpod-always-ready-to-co/dodmmooeoklaejobgleioelladacbeki
 
 
-Start the project. 
+**Start the project.**
 ------------------------------
 
    .. code:: sh
@@ -46,14 +46,14 @@ Start the project.
 
 This will also install all the required packages for this project.
 
-Solution - 1: 
+**Solution - 1:**
 ------------------------------
 
    .. code:: sh
 
        make fetch.api
 
-Solution - 2: 
+**Solution - 2:**
 ------------------
 
    .. code:: sh
@@ -67,13 +67,13 @@ Solution - 2:
          (n=number of rows, f=filename). Pass without spaces...
          filename provided is generated in solution__2 folder
 
-Test solution 2:
+**Test solution 2:**
 ------------------------------
    .. code:: sh
 
        make test.generated.data
 
-Solution - 3:
+**Solution - 3:**
 ------------------------------
 
    .. code:: sh
@@ -82,20 +82,20 @@ Solution - 3:
        
 (note: output file is generated in solution__3 folder "output.csv" )
 
-Show logs:
+**Show logs:**
 ----------------
    .. code:: sh
 
        make show-logs
 
-Manually install requirements:
+**Manually install requirements:**
 ------------------------------
 
    .. code:: sh
 
        make requirements
 
-Stop all running containers:
+**Stop all running containers:**
 ------------------------------
 
    .. code:: sh
@@ -107,7 +107,7 @@ Alternatively,you can still run this project on your PC (e.g. Windows) if you do
 WSL installed or make and/or Docker - You must have Python3.4+ already installed
 ------------------------------------------------------------------------------------------
 
-Create a virtual environment:
+**Create a virtual environment:**
 ------------------------------
 
    .. code:: sh
@@ -116,7 +116,7 @@ Create a virtual environment:
        
 note: For Linux & Mac: use pip3 if you receive an error using ordinary pip
 
-Activate it:
+**Activate it:**
 ------------------------------
 
    .. code:: sh
@@ -125,7 +125,7 @@ Activate it:
     
        source venv/Scripts/activate (Windows - you must have Git installed to use source on Windows)
 
-Download the requirements file:
+**Download the requirements file:**
 ------------------------------
 
    .. code:: sh
@@ -136,14 +136,14 @@ Download the requirements file:
     use python3 - Linux & Mac if you don't already have an alias for python
     python - Windows default
 
-Run Solution - 1:
+**Run Solution - 1:**
 ------------------------------
 
    .. code:: sh
 
        cd solution__1 && python fetch_data.py
 
-Run Solution - 2:
+**Run Solution - 2:**
 ------------------------------
 
     note: Return to the root directory before you run solution 2 & 3
