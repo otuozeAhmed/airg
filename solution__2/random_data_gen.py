@@ -13,9 +13,7 @@ class CSVRandomDataGenerator:
     global ERROR_NUM_ROWS
 
     ERROR_TEXT = "Invalid file format: Replacing the filename with default value"
-    ERROR_NUM_ROWS = (
-        "Inputed value is not an integer: Replacing the num_row with default value"
-    )
+    ERROR_NUM_ROWS = "Inputed value is not an integer: Replacing the num_row with default value"
 
     def __init__(self, num_rows: int, filename: str) -> None:
         self.num_rows = abs(num_rows)
